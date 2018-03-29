@@ -72,8 +72,8 @@ class CssifyWebTest(unittest.TestCase):
     def tearDown(self):
         self.driver.quit()
         self.report_test_result()
-
-
+        alerte ('test')
+        
 PLATFORMS = [
     {'browserName': 'firefox',
      'platform': 'LINUX',
